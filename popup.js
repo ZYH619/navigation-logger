@@ -1,4 +1,4 @@
-console.log('晒晒干')
+console.log('heihei')
 chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
   const currentTabId = tabs[0].id
 
